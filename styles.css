@@ -1,0 +1,23 @@
+:root {
+    --background-color: rgb(191, 137, 191);
+    --widget-background-color: rgba(0, 0, 0, .25);
+}
+
+* {
+    margin: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: var(--background-color);
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    background: var(--widget-background-color);
+}

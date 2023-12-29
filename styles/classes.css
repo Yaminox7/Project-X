@@ -1,0 +1,27 @@
+div.Xcentered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text.Xcentered {
+    width: 100%;
+    text-align: center;
+}
+
+.Ycentered {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.userselect {
+    user-select: auto;
+}

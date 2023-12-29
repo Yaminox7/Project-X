@@ -1,0 +1,11 @@
+input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+label {
+    cursor: text;
+}
